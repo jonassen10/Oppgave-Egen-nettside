@@ -1,0 +1,37 @@
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.6;
+color: #222;
+background: #f7f7f9;
+}
+nav {
+display: flex;
+gap: 1.5rem;
+padding: 1rem 2rem;
+background: #2b2d42;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+}
+nav a:hover {
+text-decoration: underline;
+}
+main {
+max-width: 900px;
+margin: 0 auto;
+padding: 2rem;
+}
+section {
+margin-bottom: 2rem;
+}
+footer {
+text-align: center;
+padding: 1rem;
+color: #666;
+}
