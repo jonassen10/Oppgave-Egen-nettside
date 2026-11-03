@@ -1,4 +1,4 @@
-{
+* {
 box-sizing: border-box;
 margin: 0;
 padding: 0;
@@ -34,4 +34,24 @@ footer {
 text-align: center;
 padding: 1rem;
 color: #666;
+}
+.kort-rad {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.kort {
+  flex: 1 1 250px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.kort img,
+.kort video {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
 }
