@@ -1,0 +1,10 @@
+.terning {
+    font-size: 100px;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    width: 150px;
+    height: 150px;
+    margin: 50px auto;
+    padding: 20px;
+}
