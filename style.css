@@ -99,11 +99,12 @@ h1, h2 {
   flex: 1 1 380px;
 }
 
-.video-kort img {
+.video-kort iframe {
   width: 100%;
   aspect-ratio: 16 / 9;
-  object-fit: cover;
-  margin: 0 0 1rem;
+  border: 0;
+  border-radius: 6px;
+  margin-bottom: 1rem;
 }
 
 #bilder .kort {
@@ -117,4 +118,25 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.video-kort a {
+  display: block;
+}
+
+.video-kort img {
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.video-kort a:hover img {
+  transform: scale(1.02);
+  filter: brightness(0.85);
+}
+
+.kort {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.kort:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
